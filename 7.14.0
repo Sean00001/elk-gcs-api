@@ -1,0 +1,5 @@
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: elasticsearch in c:\users\pured\appdata\roaming\python\python38\site-packages (8.9.0)
+Requirement already satisfied: elastic-transport<9,>=8 in c:\users\pured\appdata\roaming\python\python38\site-packages (from elasticsearch) (8.4.0)
+Requirement already satisfied: urllib3<2,>=1.26.2 in c:\users\pured\appdata\roaming\python\python38\site-packages (from elastic-transport<9,>=8->elasticsearch) (1.26.4)
+Requirement already satisfied: certifi in c:\users\pured\appdata\roaming\python\python38\site-packages (from elastic-transport<9,>=8->elasticsearch) (2020.12.5)
