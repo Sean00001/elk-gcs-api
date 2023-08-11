@@ -1,3 +1,5 @@
+#可以動的程式
+#這支程式的功能是抓取elasticsearch裡有的index
 from elasticsearch import  Elasticsearch
 
 es = Elasticsearch(hosts='http://192.168.8.22',port=9200)

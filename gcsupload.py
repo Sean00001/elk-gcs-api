@@ -15,6 +15,6 @@ object_name = 'rrr'
 local_file_path = 'test2.txt'
 bucket = client.bucket(bucket_name)
 blob = bucket.blob(object_name)
-blob.upload_from_filename(local_file_path)
+blob.upload_from_filename(local_file_patupdateh)
 
 print(f'File {local_file_path} uploaded to {object_name} in {bucket_name}')
